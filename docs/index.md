@@ -9,7 +9,7 @@ hero:
 #   第一个按钮
     - theme: brand
       text: 点击进入
-      link: /html/index
+      link: /html/html
     #   第二个按钮
     - theme: alt
       text: View on GitHub
@@ -20,31 +20,31 @@ hero:
 features:
   - icon: <img src="/icons/html.svg">
     title: html
-    link: /html/index
+    link: /html/html
     details: 点击查看 html 部分
   - icon: <img src="/icons/css.svg">
     title: css
-    link: /html/index
+    link: /css/css
     details: 点击查看 css 部分
   - icon: <img src="/icons/javascript.svg">
     title: javascript
-    link: /javascript/index
+    link: /javascript/javascript
     details: 点击查看 javascript 部分
   - icon: <img src="/icons/vue.svg">
     title: vue
-    link: /vue/index
+    link: /vue/vue
     details: 点击查看 vue 部分
   - icon: <img src="/icons/react.svg">
     title: react
-    link: /react/index
+    link: /react/react
     details: 点击查看 react 部分
   - icon: <img src="/icons/typescript.svg">
     title: typescript
-    link: /typescript/index
+    link: /typescript/typescript
     details: 点击查看 ts 部分
   - icon: <img src="/icons/git.svg">
     title: git
-    link: /git/index
+    link: /git/git
     details: 点击查看 git 相关
 ---
 <!-- 首行不能有其他东西 -->

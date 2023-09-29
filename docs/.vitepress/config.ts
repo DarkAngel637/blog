@@ -1,7 +1,7 @@
 /*
  * @Author: Dark Angel
  * @Date: 2023-09-02 02:31:38
- * @LastEditTime: 2023-09-29 23:44:02
+ * @LastEditTime: 2023-09-30 00:45:30
  * @LastEditors: Dark Angel
  * @Description: 干就完事了!
  * @FilePath: \blog\docs\.vitepress\config.ts
@@ -46,7 +46,7 @@ export default defineConfig({
         collapsed:true,
         base:"/html",
         items: [
-          { text: 'html', link: '/index' },
+          { text: 'html', link: '/html' },
           { text: 'h5', link: '/h5' },
         ],
       },
@@ -55,7 +55,7 @@ export default defineConfig({
         collapsed:true,
         base:"/css",
         items: [
-          { text: 'css', link: '/index' },
+          { text: 'css', link: '/css' },
         ],
       },
       {
@@ -63,7 +63,7 @@ export default defineConfig({
         collapsed:true,
         base:"/javascript",
         items: [
-          { text: 'javascript', link: '/index' },
+          { text: 'javascript', link: '/javascript' },
           { text: 'es6 语法', link: '/es6' },
         ],
       },
@@ -73,16 +73,26 @@ export default defineConfig({
         base:"/frame",
         collapsed:true,
         items: [
-          { text: 'vue', link: '/vue/index' },
-          { text: 'react', link: '/react/index' },
+          { text: 'vue', link: '/vue/vue' },
+          { text: 'react', link: '/react/react' },
+          // ...
+        ],
+      },
+      {
+        text: 'typescript',
+        base:"/typescript",
+        collapsed:true,
+        items: [
+          { text: 'typescript', link: '/typescript' },
           // ...
         ],
       },
       {
         text: 'git',
         collapsed:true,
+        base:"/git",
         items: [
-          { text: 'git 命令(不全)', link: '/git/index'},
+          { text: 'git 命令(不全)', link: '/git'},
         ],
       },
       
@@ -98,12 +108,4 @@ export default defineConfig({
     //   }
     // },
   },
-  vite:{
-    mode:"production",
-    resolve:{
-      alias:{
-        "@":"/docs"
-      }
-    }
-  }
 });
