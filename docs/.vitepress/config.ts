@@ -1,7 +1,7 @@
 /*
  * @Author: Dark Angel
  * @Date: 2023-09-02 02:31:38
- * @LastEditTime: 2023-09-30 00:45:30
+ * @LastEditTime: 2023-09-30 01:29:43
  * @LastEditors: Dark Angel
  * @Description: 干就完事了!
  * @FilePath: \blog\docs\.vitepress\config.ts
@@ -108,4 +108,9 @@ export default defineConfig({
     //   }
     // },
   },
+  vite:{
+    build:{
+      assetsDir: './assets', // 指定静态文件引入路径为 "./assets"    
+    }
+  }
 });
