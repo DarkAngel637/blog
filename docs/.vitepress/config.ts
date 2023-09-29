@@ -1,7 +1,7 @@
 /*
  * @Author: Dark Angel
  * @Date: 2023-09-02 02:31:38
- * @LastEditTime: 2023-09-30 02:12:25
+ * @LastEditTime: 2023-09-30 04:27:19
  * @LastEditors: Dark Angel
  * @Description: 干就完事了!
  * @FilePath: \blog\docs\.vitepress\config.ts
@@ -15,6 +15,7 @@ export default defineConfig({
   title: '前端笔记',
   // base: "./assets",
   description: 'Vite & Vue powered static site generator.',
+  outDir:"../dist",
   themeConfig: {
     // 头部导航
     // nav: [
@@ -63,7 +64,7 @@ export default defineConfig({
         collapsed:true,
         base:"/javascript",
         items: [
-          { text: 'javascript', link: '/javascript.md' },
+          { text: 'javascript', link: '/page.md' },
           { text: 'es6 语法', link: '/es6.md' },
         ],
       },
