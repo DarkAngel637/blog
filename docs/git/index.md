@@ -1,10 +1,10 @@
 <!--
  * @Author: Dark Angel
  * @Date: 2023-09-02 12:51:34
- * @LastEditTime: 2023-09-02 12:56:16
+ * @LastEditTime: 2023-09-29 23:47:08
  * @LastEditors: Dark Angel
  * @Description: 干就完事了!
- * @FilePath: \DarkAngel637.github.io\docs\git.md
+ * @FilePath: \blog\docs\git\index.md
 -->
 # git - 简明指南
 
@@ -1109,7 +1109,7 @@ git commit
 ---
 
 ### 合并代码之一
-<img src="./images/合并代码流程.png" alt=""/>
+<img src="../public/合并代码流程.png" alt=""/>
 
 - 详见 : Pro git 3.2.3 冲突的合并
 ### 合并代码之二

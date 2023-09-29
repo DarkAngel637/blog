@@ -1,7 +1,7 @@
 /*
  * @Author: Dark Angel
  * @Date: 2023-09-02 02:31:38
- * @LastEditTime: 2023-09-29 23:19:56
+ * @LastEditTime: 2023-09-29 23:44:02
  * @LastEditors: Dark Angel
  * @Description: 干就完事了!
  * @FilePath: \blog\docs\.vitepress\config.ts
@@ -98,4 +98,12 @@ export default defineConfig({
     //   }
     // },
   },
+  vite:{
+    mode:"production",
+    resolve:{
+      alias:{
+        "@":"/docs"
+      }
+    }
+  }
 });
