@@ -1093,11 +1093,11 @@ git commit
 ---
 * 图形化客户端
 
-- [GitX (L) (OSX, 开源软件)](http://gitx.laullon.com/)
-- [Tower (OSX)](https://www.git-tower.com/windows)
-- [Source Tree (OSX, 免费)](https://www.sourcetreeapp.com/)
-- [GitHub for desktop (OSX, 免费)](https://desktop.github.com/)
-- [GitBox (OSX, App Store)](https://apps.apple.com/gb/app/gitbox/id403388357?mt=12)
+- [GitX (L) (OSX, 开源软件)]
+- [Tower (OSX)]
+- [Source Tree (OSX, 免费)]
+- [GitHub for desktop (OSX, 免费)]
+- [GitBox (OSX, App Store)]
 * 指南和手册
 
 - [Git 社区参考书](http://book.git-scm.com/)
