@@ -1,7 +1,7 @@
 /*
  * @Author: Dark Angel
  * @Date: 2023-09-02 02:31:38
- * @LastEditTime: 2023-09-30 02:04:12
+ * @LastEditTime: 2023-09-30 02:12:25
  * @LastEditors: Dark Angel
  * @Description: 干就完事了!
  * @FilePath: \blog\docs\.vitepress\config.ts
@@ -13,7 +13,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   lang: 'zh-CN',
   title: '前端笔记',
-  base: "./assets",
+  // base: "./assets",
   description: 'Vite & Vue powered static site generator.',
   themeConfig: {
     // 头部导航
@@ -46,8 +46,8 @@ export default defineConfig({
         collapsed:true,
         base:"/html",
         items: [
-          { text: 'html', link: '/html' },
-          { text: 'h5', link: '/h5' },
+          { text: 'html', link: '/page.md' },
+          { text: 'h5', link: '/h5.md' },
         ],
       },
       {
@@ -55,7 +55,7 @@ export default defineConfig({
         collapsed:true,
         base:"/css",
         items: [
-          { text: 'css', link: '/css' },
+          { text: 'css', link: '/css.md' },
         ],
       },
       {
@@ -63,8 +63,8 @@ export default defineConfig({
         collapsed:true,
         base:"/javascript",
         items: [
-          { text: 'javascript', link: '/javascript' },
-          { text: 'es6 语法', link: '/es6' },
+          { text: 'javascript', link: '/javascript.md' },
+          { text: 'es6 语法', link: '/es6.md' },
         ],
       },
       
@@ -73,8 +73,8 @@ export default defineConfig({
         base:"/frame",
         collapsed:true,
         items: [
-          { text: 'vue', link: '/vue/vue' },
-          { text: 'react', link: '/react/react' },
+          { text: 'vue', link: '/vue/page.md' },
+          { text: 'react', link: '/react/page.md' },
           // ...
         ],
       },
@@ -83,7 +83,7 @@ export default defineConfig({
         base:"/typescript",
         collapsed:true,
         items: [
-          { text: 'typescript', link: '/typescript' },
+          { text: 'typescript', link: '/typescript.md' },
           // ...
         ],
       },

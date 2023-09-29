@@ -9,7 +9,7 @@ hero:
 #   第一个按钮
     - theme: brand
       text: 点击进入
-      link: /html/html
+      link: /html/page.md
     #   第二个按钮
     - theme: alt
       text: View on GitHub
@@ -18,33 +18,33 @@ hero:
   image:
     src: /838ba61ea8d3fd1f693c5e58cf65e61495ca5f56.webp
 features:
-  - icon: <img src="./public/icons/html.svg">
+  - icon: <img src="/icons/html.svg">
     title: html
-    link: /html/html
+    link: /html/page.md
     details: 点击查看 html 部分
-  - icon: <img src="./public/icons/css.svg">
+  - icon: <img src="/icons/css.svg">
     title: css
-    link: /css/css
+    link: /css/page.md
     details: 点击查看 css 部分
-  - icon: <img src="./public/icons/javascript.svg">
+  - icon: <img src="/icons/javascript.svg">
     title: javascript
-    link: /javascript/javascript
+    link: /javascript/page.md
     details: 点击查看 javascript 部分
-  - icon: <img src="./public/icons/vue.svg">
+  - icon: <img src="/icons/vue.svg">
     title: vue
-    link: /vue/vue
+    link: /vue/page.md
     details: 点击查看 vue 部分
-  - icon: <img src="./public/icons/react.svg">
+  - icon: <img src="/icons/react.svg">
     title: react
-    link: /react/react
+    link: /react/page.md
     details: 点击查看 react 部分
-  - icon: <img src="./public/icons/typescript.svg">
+  - icon: <img src="/icons/typescript.svg">
     title: typescript
-    link: /typescript/typescript
+    link: /typescript/page.md
     details: 点击查看 ts 部分
-  - icon: <img src="./public/icons/git.svg">
+  - icon: <img src="/icons/git.svg">
     title: git
-    link: /git/git
+    link: /git/page.md
     details: 点击查看 git 相关
 ---
 <!-- 首行不能有其他东西 -->
