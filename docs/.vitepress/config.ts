@@ -1,7 +1,7 @@
 /*
  * @Author: Dark Angel
  * @Date: 2023-09-02 02:31:38
- * @LastEditTime: 2023-09-30 01:29:43
+ * @LastEditTime: 2023-09-30 01:48:37
  * @LastEditors: Dark Angel
  * @Description: 干就完事了!
  * @FilePath: \blog\docs\.vitepress\config.ts
@@ -13,8 +13,8 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   lang: 'zh-CN',
   title: '前端笔记',
+  base: './',
   description: 'Vite & Vue powered static site generator.',
-
   themeConfig: {
     // 头部导航
     // nav: [
@@ -108,9 +108,5 @@ export default defineConfig({
     //   }
     // },
   },
-  vite:{
-    build:{
-      assetsDir: './assets', // 指定静态文件引入路径为 "./assets"    
-    }
-  }
+ 
 });
