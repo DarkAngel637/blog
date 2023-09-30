@@ -1,7 +1,7 @@
 /*
  * @Author: Dark Angel
  * @Date: 2023-09-29 23:34:35
- * @LastEditTime: 2023-09-30 19:46:46
+ * @LastEditTime: 2023-09-30 20:15:18
  * @LastEditors: Dark Angel
  * @Description: 干就完事了!
  * @FilePath: \blog\docs\.vitepress\config.ts
@@ -95,6 +95,14 @@ export default defineConfig({
         collapsed:true,
         items: [
           { text: 'typescript', link: '/typescript.md' },
+        ],
+      },
+      {
+        text: 'http',
+        base:"/http",
+        collapsed:true,
+        items: [
+          { text: 'http', link: '/page.md' },
         ],
       },
       {
