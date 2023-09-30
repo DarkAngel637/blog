@@ -46,6 +46,10 @@ features:
     title: git
     link: /git/page.md
     details: 点击查看 git 相关
+  - icon: <img src="./icons/nodejs.svg">
+    title: nodejs
+    link: /node/base.md
+    details: 点击查看 node 相关
 ---
 <!-- 首行不能有其他东西 -->
 <!-- /* :root {

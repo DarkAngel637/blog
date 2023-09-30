@@ -1,7 +1,7 @@
 /*
  * @Author: Dark Angel
  * @Date: 2023-09-02 02:31:38
- * @LastEditTime: 2023-09-30 13:20:10
+ * @LastEditTime: 2023-09-30 16:51:37
  * @LastEditors: Dark Angel
  * @Description: 干就完事了!
  * @FilePath: \blog\docs\.vitepress\config.ts
@@ -76,7 +76,7 @@ export default defineConfig({
         items: [
           { text: 'vue', link: '/vue/page.md' },
           { text: 'react', link: '/react/page.md' },
-          // ...
+          { text: 'webpack', link: '/webpack/page.md' },
         ],
       },
       {
@@ -85,7 +85,6 @@ export default defineConfig({
         collapsed:true,
         items: [
           { text: 'typescript', link: '/typescript.md' },
-          // ...
         ],
       },
       {
@@ -94,6 +93,17 @@ export default defineConfig({
         base:"/git",
         items: [
           { text: 'git 命令(不全)', link: '/page'},
+        ],
+      },
+      {
+        text: 'nodejs',
+        collapsed:true,
+        base:"/node",
+        items: [
+          { text: 'nodejs 基础', link: '/base'},
+          { text: 'npm', link: '/npm'},
+          { text: 'koa', link: '/koa'},
+          { text: 'egg 基础', link: '/egg'},
         ],
       },
       
