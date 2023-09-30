@@ -1,7 +1,7 @@
 /*
  * @Author: Dark Angel
  * @Date: 2023-09-02 02:31:38
- * @LastEditTime: 2023-09-30 13:08:47
+ * @LastEditTime: 2023-09-30 13:15:17
  * @LastEditors: Dark Angel
  * @Description: 干就完事了!
  * @FilePath: \blog\docs\.vitepress\config.ts
@@ -13,7 +13,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   lang: 'zh-CN',
   title: '前端笔记',
-  base: "./blog",
+  // base: "/blog",
   description: 'Vite & Vue powered static site generator.',
   outDir:"../dist",
   themeConfig: {
