@@ -32,11 +32,11 @@ features:
     details: 点击查看 javascript 部分
   - icon: <img src="./icons/vue.svg">
     title: vue
-    link: /vue/page.md
+    link: /frame/vue/page.md
     details: 点击查看 vue 部分
   - icon: <img src="./icons/react.svg">
     title: react
-    link: /react/page.md
+    link: /frame/react/page.md
     details: 点击查看 react 部分
   - icon: <img src="./icons/typescript.svg">
     title: typescript
