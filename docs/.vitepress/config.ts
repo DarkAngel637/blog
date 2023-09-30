@@ -1,7 +1,15 @@
 /*
  * @Author: Dark Angel
+ * @Date: 2023-09-29 23:34:35
+ * @LastEditTime: 2023-09-30 19:46:46
+ * @LastEditors: Dark Angel
+ * @Description: 干就完事了!
+ * @FilePath: \blog\docs\.vitepress\config.ts
+ */
+/*
+ * @Author: Dark Angel
  * @Date: 2023-09-02 02:31:38
- * @LastEditTime: 2023-09-30 16:51:37
+ * @LastEditTime: 2023-09-30 17:58:13
  * @LastEditors: Dark Angel
  * @Description: 干就完事了!
  * @FilePath: \blog\docs\.vitepress\config.ts
@@ -13,10 +21,12 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   lang: 'zh-CN',
   title: '前端笔记',
+  head:[["link",{rel:"icon",href:"/1000.webp"}]],
   base: "/blog",
-  description: 'Vite & Vue powered static site generator.',
+  description: '神威难藏泪,满眼皆是琳 --- 致敬土哥',
   outDir:"../dist",
   themeConfig: {
+    logo:"/fav.jpg",
     // 头部导航
     // nav: [
     //   { text: '技术', link: '/example' },// link 前面是从 docs 开始算起路径
@@ -106,18 +116,23 @@ export default defineConfig({
           { text: 'egg 基础', link: '/egg'},
         ],
       },
-      
-     
     ],
     // 头部搜索框
-    // search: {
-    //   provider: 'algolia',
-    //   options: {
-    //     // appId: '8J64VVRP8K',
-    //     // apiKey: 'a18e2f4cc5665f6602c5631fd868adfd',
-    //     // indexName: 'vitepress'
-    //   }
-    // },
+    search: {
+      provider: 'local',
+      // options: {
+        // appId: '8J64VVRP8K',
+        // apiKey: 'a18e2f4cc5665f6602c5631fd868adfd',
+        // indexName: 'vitepress'
+      // }
+    },
+    aside: true,
+    outline: "deep",
+    outlineTitle: "大纲",
+    docFooter: {
+      prev: "⬅",
+      next: "➡",
+    },
   },
  
 });

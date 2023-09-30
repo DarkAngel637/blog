@@ -16,7 +16,7 @@ hero:
       link: https://github.com/vuejs/vitepress
     #   首页添加图片 (可以写路径,也可以写 html标签)
   image:
-    src: /838ba61ea8d3fd1f693c5e58cf65e61495ca5f56.webp
+    src: /images/838ba61ea8d3fd1f693c5e58cf65e61495ca5f56.webp
 features:
   - icon: <img src="./icons/html.svg">
     title: html
@@ -77,3 +77,16 @@ features:
   align-items:center;
 }
 </style>
+<!-- <audio id="audio" autoplay loop>
+  <source src="/music/sasikei.mp3" type="audio/mpeg" />
+  <source src="/music/obito.mp3" type="audio/mpeg" />
+</audio> -->
+
+<!-- <script>
+const window= document.getElementsByTagName("window")[0];
+const audio= document.getElementById("audio")
+window.onload=function(){
+  audio.play()
+}
+
+</script> -->

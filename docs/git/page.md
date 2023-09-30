@@ -1109,7 +1109,7 @@ git commit
 ---
 
 ### 合并代码之一
-<img src="/合并代码流程.png" alt=""/>
+<img src="/images/合并代码流程.png" alt=""/>
 
 - 详见 : Pro git 3.2.3 冲突的合并
 ### 合并代码之二
