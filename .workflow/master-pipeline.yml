@@ -7,8 +7,6 @@ triggers:
     branches:
       include:
         - master
-  schedule:
-    - cron: '* * * * * ? *'
 stages:
   - name: compile
     displayName: 编译
