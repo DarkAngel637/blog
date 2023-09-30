@@ -61,7 +61,7 @@ npm install -g typescript
 - any
 - never
 - object
-- Array\<元素类型> 或者 元素类型[]
+- Array<元素类型> 或者 元素类型[]
 - [类型1,类型2] (元组) 
 
 ## 枚举
@@ -145,14 +145,14 @@ interface Animal {
 举个例子:
 1. 泛型接口
 ```ts
-interface Person\<T> {
+interface Person<T> {
   name: string;
   age: number;
   documents: T;
 }
 
 // We have to pass in the type of `documents` - an array of strings in this case
-const person1: Person\<string[]> = {
+const person1: Person<string[]> = {
   name: 'ConardLi',
   age: 17,
   documents: ['passport', 'bank statement', 'visa'],
@@ -164,7 +164,7 @@ interface hasLength {
   length: number;
 }
 
-function logLengths\<T extends hasLength>(a: T[]) {
+function logLengths<T extends hasLength>(a: T[]) {
   a.forEach((element) => {
     console.log(element.length);
   });
@@ -178,12 +178,12 @@ type Props = {}
 
 type State = {}
 
-export default class MyComponent extends Component\<Props, State> {
+export default class MyComponent extends Component<Props, State> {
   state = {}
 
   render() {
     return (
-      \<div>MyComponent\</div>
+      <div>MyComponent</div>
     )
   }
 }
