@@ -1,7 +1,7 @@
 /*
  * @Author: Dark Angel
  * @Date: 2023-09-29 23:34:35
- * @LastEditTime: 2023-09-30 21:42:19
+ * @LastEditTime: 2023-09-30 21:53:59
  * @LastEditors: Dark Angel
  * @Description: 干就完事了!
  * @FilePath: \blog\docs\.vitepress\config.ts
@@ -21,7 +21,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   lang: 'zh-CN',
   title: '前端笔记',
-  head:[["link",{rel:"icon",href:"/1000.webp"}]],
+  head:[["link",{rel:"icon",href:"/blog/1000.webp"}]],
   base: "/blog",
   description: '神威难藏泪,满眼皆是琳 --- 致敬土哥',
   outDir:"../dist",
