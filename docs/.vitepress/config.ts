@@ -142,5 +142,4 @@ export default defineConfig({
       next: "➡",
     },
   },
- 
 });
