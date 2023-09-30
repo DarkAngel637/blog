@@ -1,6 +1,6 @@
 version: '1.0'
-name: master-pipeline
-displayName: MasterPipeline
+name: pipeline-20230930
+displayName: pipeline-20230930
 triggers:
   trigger: auto
   push:
