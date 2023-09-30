@@ -1,7 +1,7 @@
 <!--
  * @Author: Dark Angel
  * @Date: 2023-09-29 20:43:04
- * @LastEditTime: 2023-09-30 20:33:45
+ * @LastEditTime: 2023-09-30 20:42:47
  * @LastEditors: Dark Angel
  * @Description: 干就完事了!
  * @FilePath: \blog\docs\http\page.md
@@ -21,7 +21,7 @@
 根据响应中的状态码来指明文档没有变化。304 Not Modified
 验证文档内容是否变化有两种方式，统称为条件GET方法
 ###  Last-Modified 和 If-Modified-Since 
-|||
+|第一个|第二个|
 |:---:|:---:|
 Last-Modified | If-Modified-Since
 客户端的时间   | 服务端记录的第一次修改的时间
@@ -144,7 +144,7 @@ WebSocket 适用于需要**实时、高效、双向通信**的场景，
 
 ### WebSocket 与 HTTP 对比
 
-![](https://user-gold-cdn.xitu.io/2019/12/3/16ec9bc6c28a9a19?w=1014&h=442&f=png&s=225703)
+![111](https://user-gold-cdn.xitu.io/2019/12/3/16ec9bc6c28a9a19?w=1014&h=442&f=png&s=225703)
 
 ### 基本使用(一个协议,四个事件(open,close,message,error),两个方法(send,close),open的时候 send 数据)
 
@@ -297,10 +297,10 @@ if (socket.bufferedAmount === 0) {
 
 请求地址分析:
                     |  proxy替换  |
-http://localhost:8000/sacp/api/v1/sacp/api/get_xml
+http:\//localhost:8000/sacp/api/v1/sacp/api/get_xml
                      |-  拦截器 -|
                                  |-   zujianli   -|
-提供数据的接口地址(proxy): https://www.fastmock.site/sacp/api/v1/sacp/api/get_xml
+提供数据的接口地址(proxy): https:\//www.fastmock.site/sacp/api/v1/sacp/api/get_xml
 ```js
 // proxy
  '/sacp/api': {
