@@ -1,7 +1,7 @@
 <!--
  * @Author: Dark Angel
  * @Date: 2023-09-30 21:45:07
- * @LastEditTime: 2023-09-30 22:19:29
+ * @LastEditTime: 2023-10-01 04:22:55
  * @LastEditors: Dark Angel
  * @Description: 干就完事了!
  * @FilePath: \blog\readme.md
@@ -17,3 +17,4 @@
 ### 有个问题: 为什么 http 不分一直更新不到线上去?
 
 最后推送了一次,流水线部署之后又手动进行了一下部署才展示出来......(什么问题到底)
+提交完之后需要点击一下 gitee pages 的部署才能更新到页面
