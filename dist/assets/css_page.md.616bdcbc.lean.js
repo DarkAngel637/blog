@@ -1,0 +1,1 @@
+import{_ as a,o as i,c as t,Q as o}from"./chunks/framework.7204edfa.js";const _=JSON.parse('{"title":"css","description":"","frontmatter":{},"headers":[],"relativePath":"css/page.md","filePath":"css/page.md"}'),l={name:"css/page.md"},n=o("",9),s=[n];function e(r,c,d,g,p,h){return i(),t("div",null,s)}const m=a(l,[["render",e]]);export{_ as __pageData,m as default};

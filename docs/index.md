@@ -73,8 +73,14 @@ features:
   }
 }
 
-  .box{
+:root{
+    .box{
   align-items:center;
+} 
+  .pager a .desc {
+    font-size:24px; 
+  }
+
 }
 </style>
 <!-- <audio id="audio" autoplay loop>
