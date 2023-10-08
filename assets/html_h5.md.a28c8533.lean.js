@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,Q as l}from"./chunks/framework.7204edfa.js";const d=JSON.parse('{"title":"h5","description":"","frontmatter":{},"headers":[],"relativePath":"html/h5.md","filePath":"html/h5.md"}'),p={name:"html/h5.md"},o=l("",22),t=[o];function e(c,r,i,E,y,u){return a(),n("div",null,t)}const g=s(p,[["render",e]]);export{d as __pageData,g as default};
